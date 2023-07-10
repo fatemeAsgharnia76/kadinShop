@@ -1,0 +1,10 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+}
+.header-scrolled{
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15)   
+}
+.sticky-inner-wrapper{
+    z-index: 1;
+}

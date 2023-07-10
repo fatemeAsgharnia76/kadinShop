@@ -1,0 +1,13 @@
+.nav-smIcons{
+    border-radius: 50%;
+    background-color: #fff;
+    color: #5664a0;
+    font-size: 14px;
+    width: 30px;
+    padding: 7px 0;
+    cursor: pointer;
+    border: 1px solid rgba(29,37,71,0.12)
+}
+.nav-smIcons:hover{
+    transform: rotateY(180deg);
+}

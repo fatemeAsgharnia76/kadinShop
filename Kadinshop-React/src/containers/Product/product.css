@@ -1,0 +1,76 @@
+.product-main {
+    min-height: 580px;
+    margin-bottom: 210px;
+}
+.pro-brand {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #787878;
+    margin-bottom: 10px;
+    display: block;
+  }
+.pro-name{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    line-height: 1.3;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+}
+.pro-price {
+    margin-bottom: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    color: #dc0345;
+    font-weight: 700;
+}
+.pro-description{
+    color: #787878;
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 400;
+}
+.size-select-form{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 60px;
+    font-size: .9rem!important;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+    color: #787878!important;
+    max-width: 40%;
+    border-radius: 0!important;
+}
+.form-select:focus {
+    border: 1px solid #ced4da!important;
+    box-shadow: none!important;
+}
+.add-cart-btn {
+    min-width: 170px;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 0 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 50px;
+    background-color: #0315ff;
+    font-weight: 700;
+    border-radius: 0!important;
+}
+
+@media (max-width: 678px) {
+    .size-select-form{
+        margin-top: 0;
+        margin-bottom: 30px;
+        height: 40px;
+        max-width: 130px;
+    }
+    .product-main {
+        margin-bottom: 290px;
+    }
+
+}

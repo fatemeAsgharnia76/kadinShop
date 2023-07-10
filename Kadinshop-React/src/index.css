@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "samim";   
+  src: url('../public/fonts/samim/Samim.ttf') format('truetype')
+}
+
+body {
+  margin: 0;
+  direction: rtl;
+  font-family: "samim"!important;   
+  background-color:#fdfdfd!important
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+}

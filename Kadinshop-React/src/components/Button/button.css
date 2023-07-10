@@ -1,0 +1,29 @@
+.button {
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.primary-btn {
+    color: #ffffff;
+    background-color: darkcyan;
+    transition: 1s;
+}
+.primary-btn:hover{
+    transition: 1s;
+    background-color: indianred
+}
+.nav-toggler{font-size: 25px }
+
+.product-btn {
+    width: 100%;
+    font-size: 12px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.submit-order{
+    min-width: 170px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: 700;
+}

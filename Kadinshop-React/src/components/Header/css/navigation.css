@@ -1,0 +1,49 @@
+
+.cart-btn{
+    padding: 5px 18px;
+    border-radius: 30px!important;
+
+} 
+.cart-icon{
+    font-size: 15px
+}
+.p-container a{
+    color:white
+}
+.p-container a:hover{
+    color:white
+}
+
+.nav-username{
+    background-color:#f4f4f4;
+    padding: 2px 8px;
+    margin-left: 10px;
+    border-radius: 4px
+}
+.nav-username span {
+    font-size: 14px;
+}
+
+@media (max-width : 992px) {
+    .navbar-items:not(:last-child) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.062)
+    }
+}
+
+@media (min-width:992px) {
+ 
+    .navbar-expand-lg .nav-toggler {
+      display: none;
+    }
+}
+
+@media (min-width:769px ) and (max-width: 992px){
+    .web-brand{
+        margin-right: 50px;
+    }
+}
+@media  (max-width: 768px){
+    .web-brand{
+        margin-right: 20px;
+    }
+}

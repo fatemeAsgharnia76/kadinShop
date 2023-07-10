@@ -1,0 +1,32 @@
+.register,.sign-in{
+    /* margin-bottom:250px; */
+    direction:rtl;
+    height:315px;
+   
+}
+.register a, .sign-in a {
+ color: #2c5d5d; 
+
+}
+.this-form {
+    width: 250px!important;
+}
+
+form input:focus {
+    box-shadow:  none!important
+}
+
+.register .singIn-text, .sign-in .singIn-text{
+    font-size: 14px;
+    color: #2c5d5d;
+}
+.register .singIn-text:hover, 
+.sign-in .singIn-text:hover {
+    text-decoration: underline;
+    color:#59b6b6
+}
+
+.notfound{
+    color:red;
+    font-size: 12px;
+}

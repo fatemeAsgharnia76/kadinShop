@@ -1,0 +1,29 @@
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+.summary-inner{
+    width: 75%;
+    direction: rtl;
+}
+.summary-details {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.summary-title{
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+@media (max-width: 992px) {
+    .summary-inner{
+        max-width: 400px!important;
+    }
+}

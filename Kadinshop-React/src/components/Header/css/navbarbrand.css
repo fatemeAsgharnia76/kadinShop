@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Tanha";   
+    src: url('../../../../public/fonts/Tanha/Tanha.woff') format('truetype');
+}
+  
+.brand-logo{
+    font-family: "Tanha";  
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(64, 76, 123)
+}
+
+
+@media (max-width:576px) {
+    .brand-logo {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,15 @@
+.cart-main {
+    margin-bottom: 210px;
+}
+.cart-container{
+    min-height: 400px!important;
+    
+}
+@media (max-width: 992px) {
+    .cart-container {
+        padding-left: 0!important;
+    }
+    .cart-main {
+        margin-bottom: 280px;
+    }
+}

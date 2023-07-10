@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "samim";   
+  src: url('../../../public/fonts/samim/Samim.ttf') format('truetype')
+}
+
+.submit-modal {
+    position: fixed;
+    z-index: 200;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px 15px 18px 15px;
+    left: 38%;
+    top: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    width: 220px;
+    height: fit-content;
+  }
+  
+  .submit-modal__inner {
+    font-family: "samim";   
+  }
+
+.close-modal,.login-page {
+  padding: 4px 10px 8px 10px;
+  font-size: 14px;
+}
+.login-page {
+  width: 30%;
+  margin-left: 15px;
+}
+
+
+  
+
