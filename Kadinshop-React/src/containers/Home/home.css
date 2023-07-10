@@ -8,8 +8,8 @@
 }
 
 .loged-in-message {
-    background-color:'#c3d2f7'; 
-    font-size:'13px'; 
+    background-color:#c3d2f7; 
+    font-size:13px; 
     width:fit-content;
     border-radius:5px
 }
