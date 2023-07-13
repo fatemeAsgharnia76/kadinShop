@@ -54,7 +54,7 @@ export default function LogIn(props) {
     
     
     const navigate = useNavigate ()
-    const [notFount, setNotFount] = useState('false')
+    const [notFount, setNotFount] = useState(false)
     const submitHandler = (event) => {
         setNotFount(false)
         event.preventDefault()
