@@ -74,10 +74,6 @@ export default function LogIn(props) {
             console.log(errorCode, errorMessage)
         })
     }
-
-    useEffect(()=>{
-        setNotFount(false)
-    },[])
      
     // show message when the user info were incorrect
     let notfound;
