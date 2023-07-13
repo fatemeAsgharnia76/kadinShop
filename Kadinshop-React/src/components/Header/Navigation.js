@@ -25,7 +25,6 @@ export default function Navigation(props) {
       }
       else {
           setsocialmediaicons(<SocialMediaIcons className={'mx-2'}/>)
-          console.log('cc')
       }
   }, [props.screenWidth,LogedIncontroler])
 
